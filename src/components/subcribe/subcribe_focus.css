@@ -1,0 +1,38 @@
+/* 关注服务号弹窗 */
+.focus-modal {
+    padding: 60rpx 0 55rpx 0; 
+}
+
+.focus-modal p{
+    line-height: 1;
+    color: #222;
+    font-size: 26rpx;
+}
+
+.focus-modal .remind-title {
+    margin-bottom: 30rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.focus-modal p:last-of-type {
+    margin: 10rpx 0 24rpx;
+}
+
+.focus-to-follow {
+    width: 251rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin-top: 39rpx;
+    background: linear-gradient(0deg,rgba(178,0,6,1),rgba(216,45,44,1),rgba(255,86,74,1));
+    border-radius: 30rpx;
+    font-size: 30rpx;
+    color: #fff;
+}
+
+.focus-img {
+    display: block;
+    width: 320rpx;
+    height: 345rpx;
+    margin: 40rpx auto;
+}

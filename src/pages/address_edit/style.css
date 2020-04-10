@@ -1,0 +1,79 @@
+.container {
+    padding: 30rpx;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(245,245,245);
+    font-size: 30rpx;
+}
+
+.form li {
+    margin: 0 30rpx;
+    overflow: hidden;
+    border-bottom: 1rpx solid rgb(241,241,241);
+    line-height: 103rpx;
+}
+
+.form li:last-child {
+    border-bottom: none;
+}
+
+.form label {
+    float: left;
+}
+
+.form label {
+    width: 4em;
+    color: #A3A3A3;
+}
+
+.form input, .region-picker {
+    padding-left: 25rpx;
+    height: 103rpx;
+    overflow: hidden;
+}
+
+.region-picker {
+    position: relative;
+}
+
+.region-picker::before {
+    content: '';
+    position: absolute;
+    width: 12rpx;
+    height: 12rpx;
+    border: 2rpx solid #888;
+    right: 59rpx;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-left: none;
+    border-bottom: none;
+}
+
+.default-address {
+    margin-top: 20rpx;
+    padding: 40rpx 0;
+    text-indent: 30rpx;
+    display: none;
+}
+
+.default-address switch {
+    float: right;
+    margin-right: 58rpx;
+    transform: scale(.8, .7);
+}
+
+.save-btn {
+    position: absolute;
+    left: 30rpx;
+    bottom: 30rpx;
+    right: 30rpx;
+    height: 68rpx;
+    line-height: 68rpx;
+    background-color:#dc3538;
+    border-radius: 0;
+    font-size: 32rpx;
+    color: #fff;
+}

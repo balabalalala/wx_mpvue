@@ -1,0 +1,64 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wxa827b8816b0c9d87",
+	"projectname": "wxapp-mpvue",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "member",
+					"pathName": "pages/member/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的足迹",
+					"pathName": "pages/foot_print/main",
+					"query": "",
+					"scene": "1078"
+				},
+				{
+					"id": -1,
+					"name": "我的足迹",
+					"pathName": "pages/new_red_envelope/main",
+					"query": "",
+					"scene": "1078"
+				},
+				{
+					"id": -1,
+					"name": "签到",
+					"pathName": "pages/sign_in/main",
+					"query": "",
+					"scene": "1078"
+				}
+			]
+		}
+	}
+}

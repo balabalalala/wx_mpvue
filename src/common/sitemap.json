@@ -1,0 +1,191 @@
+{
+    "rules": [
+      {
+        "action": "allow",
+        "page": "pages/disclosure/main",
+        "params": ["gdid"],
+        "matching": "inclusive"
+      },
+      {
+        "action": "allow",
+        "page": "pages/index/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/sign_earn_coin/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/web_view",
+        "params": ["url"],
+        "matching": "inclusive"
+      },
+      {
+        "action": "allow",
+        "page": "pages/activityDetail"
+      },
+      {
+        "action": "allow",
+        "page": "pages/new_red_envelope/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/my_subscribe/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/member/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/search/main"
+      },
+      {
+        "action": "allow",
+        "page": "pages/activity_venue/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/address_edit/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/address_list/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/contact_service/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/foot_print/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/idcard_edit/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/idcard_list/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/member_calculator/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/my_collection_v2/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/new_red_envelope/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/search_history/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/search_result/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      }
+      ,
+      {
+        "action": "disallow",
+        "page": "pages/search/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/subscribe_list/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/orderConfirm"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/orderDetail"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_coupons"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/pay_fail"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/orderCancel"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/my"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/coupons"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/orders"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/orderLogistics"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_confirm"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_detail"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/order_evaluate/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/cabbage_subscribe/main"
+      },
+      {
+        "action": "disallow",
+        "page": "pages/my_news/main"
+      }
+
+    ]
+  }

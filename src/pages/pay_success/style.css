@@ -1,0 +1,87 @@
+.container{
+    padding: 100rpx 30rpx 0;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.old-people div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.old-people img{
+    width: 52rpx;
+    height: 52rpx;
+}
+.old-people b{
+    margin-left: 18rpx;
+    line-height: 52rpx;
+    font-size: 36rpx;
+    font-weight: 600;
+    color:#222;
+}
+.old-people p{
+    padding-top: 24rpx;
+    line-height: 28rpx;
+    font-size: 28rpx;
+    color: #222;
+}
+.old-people .btn-group{
+    text-align: center;
+    padding-top: 60rpx;
+}
+.old-people button{
+    display: inline-block;
+    width: 200rpx;
+    text-align: center;
+    height: 56rpx;
+    line-height: 56rpx;
+    border: 2rpx solid #4C4C4C;
+    border-radius: 28rpx;
+    font-size: 30rpx;
+    color: #4C4C4C;
+}
+.old-people button:first-child {
+    margin-right: 76rpx;
+}
+.new-people{
+    margin-top: 60rpx;
+    position: relative;
+}
+.new-people strong{
+    width: 100%;
+    line-height: 33rpx;
+    font-size: 34rpx;
+    color: #222;
+    position: absolute;
+    top: 84rpx;
+}
+.new-people img{
+    width: 684rpx;
+    height: 747rpx;
+}
+.new-people button{
+    position: absolute;
+    bottom: 60rpx;
+    width: 210rpx;
+    text-align: center;
+    line-height: 58rpx;
+    border-radius: 28rpx;
+    font-size: 30rpx;
+    color:#fff;
+    background: linear-gradient(to right, #fd9e66, #ea695e);
+    box-shadow: #ea695e 0 2rpx 10rpx;
+    position: relative;
+    overflow: hidden;
+}
+.new-people button::after{
+    content: '';
+    position: absolute;
+    top: -4rpx;
+    left: 60rpx;
+    width: 12rpx;
+    height: 80rpx;
+    background: #fff;
+    opacity: 0.4;
+    transform: rotate(42deg);
+}

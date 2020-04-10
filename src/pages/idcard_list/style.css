@@ -1,0 +1,102 @@
+.container {
+    font-size: 28rpx;
+    color: #191919;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+
+    overflow: hidden;
+}
+
+.idcard-list {
+    margin: 40rpx 30rpx;
+    line-height: 1;
+}
+
+.idcard-list li {
+    margin-bottom: 20rpx;
+    padding: 45rpx 30rpx 30rpx;
+}
+
+.idcard-list h2 {
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 32rpx;
+}
+
+.idcard-list h2 .label-btn {
+    float: right;
+    margin-right: 0;
+    margin-left: 10rpx;
+}
+
+.idcard-list li p {
+    color: #1a1a1a;
+    font-size: 28rpx;
+    margin-top: 30rpx;
+}
+
+.actions {
+    margin-top: 36rpx;
+    padding-top: 24rpx;
+    border-top: 1rpx solid #F1F1F1;
+    overflow: hidden;
+}
+
+.actions radio {
+    transform: scale(.7) translateY(-5rpx);
+}
+
+.footer-box {
+    height: 130rpx;
+}
+
+.footer-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0rpx;
+    right: 0;
+    padding: 30rpx;
+    font-weight: bold;
+    background-color: #F5F5F5;
+}
+.ipx {
+    padding-bottom: 50rpx;
+}
+footer button {
+    width: 360rpx;
+    margin: 0;
+}
+
+.tac {
+    text-align: center;
+}
+
+.later-upload {
+    padding: 0 30rpx;
+    font-size: 24rpx;
+    margin-top: 10rpx;
+}
+
+.later-upload radio {
+    transform: scale(.7) translateY(-3rpx);
+    margin-right: -15rpx;
+}
+
+.note {
+    margin: 209rpx 75rpx 111rpx;
+    line-height: 40rpx;
+}
+
+.mt {
+    margin-top: 111rpx;
+}
+
+.no-btn-red {
+    position: absolute;
+    top: 400rpx;
+    left: 200rpx;
+    width: 300rpx;
+    height: 68rpx;
+    background-color: transparent;
+}

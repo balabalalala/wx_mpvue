@@ -1,0 +1,139 @@
+.card {
+    background-color: #fff;
+    box-shadow: 5px 0px 15px rgba(177, 181, 176, 0.35);
+}
+
+.edit,
+.del {
+    float: right;
+    padding: 0;
+    font-size: 26rpx;
+    height: auto;
+    line-height: 1.5;
+    color: #4C4C4C;
+    padding-left: 33rpx;
+    background: transparent url(https://img-ali.xiaohongchun.com.cn/program-inline-images/edit_icon.png) left center no-repeat;
+    background-size: 29rpx 30rpx;
+}
+
+.del {
+    background-image: url(https://img-ali.xiaohongchun.com.cn/program-inline-images/idcard_list_trash.png);
+    margin-left: 32rpx;
+}
+
+.dark-bg {
+    background-color: #F5F5F5;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ovh {
+    overflow: hidden;
+}
+
+.ellipsis {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
+
+.against-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.member-modal-image {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.member-modal-close {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    width: 64rpx;
+    height: 64rpx;
+    line-height: 64rpx;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    color: #a5a5a5;
+    text-align: center;
+}
+
+.to-follow {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    background: #fff;
+    font-size: 32rpx;
+    color: rgb(84, 185, 56);
+}
+
+.modal-content {
+    padding: 1em;
+}
+
+.modal-bottom {
+    padding-top: 40rpx;
+    border-top: 1rpx solid #ccc;
+    font-size: 24rpx;
+    color: #4c4c4c;
+    margin-top: 50rpx;
+}
+
+.subscribe {
+    display: inline-block;
+    line-height: 42rpx;
+    border-radius: 0;
+    font-size: 24rpx;
+    color: #dc3538;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 0 30rpx;
+}
+
+.subscribed {
+    background: #ccc;
+    color: #fff;
+}
+
+
+/* 
+ *  天天跟我买 GUI 视觉规范
+ *
+ *  主红:#dc3538   辅红: #ff7d84     
+ *  主黑: #222222   次黑: #4c4c4c   主灰: #808080   次灰: cccccc    背景/线: #f5f5f5   
+ *
+ *  重要大字:  字号: 34rpx  行距: 44rpx;  
+ *  辅助文字:  字号: 30rpx  行距: 42rpx; 
+ *  大部分字:  字号: 28rpx  行距: 40rpx; 
+ *  小号文字:  字号: 26rpx  行距: 38rpx; 
+ *  小到发指:  字号: 24rpx  行距: 36rpx;
+ *  ... ...
+ *
+ */

@@ -1,0 +1,190 @@
+.container {
+    background: #f5f5f5;
+    height: 100vh;
+}
+
+.buyer-icon,
+.buyer-info,
+.buyer-vip,
+.buyer-star,
+.buyer-buy-count,
+.evaluate-buyer,
+.goods-image,
+.evaluate-goods,
+.evaluate-title,
+.evaluate-star,
+.evaluate-head,
+.evaluate-text,
+.evaluate-content,
+.help-icon,
+.help-text {
+    /* display:inline-block; */
+    float: left;
+}
+
+.evaluate-buyer,
+.evaluate-goods,
+.evaluate-content,
+.evaluate-text {
+    width: 100%;
+    padding: 30rpx;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+/* 买手信息部分 */
+.buyer-icon {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+
+.buyer-info {
+    padding-top: 10rpx;
+    padding-left: 20rpx;
+}
+
+.buyer-order {
+    padding-top: 12rpx;
+    line-height: 1;
+}
+
+.buyer-nick {
+    line-height: 1;
+    font-size: 28rpx;
+    color: #222;
+}
+
+.buyer-vip {
+    width: 20rpx;
+    height: 20rpx;
+}
+
+.buyer-star {
+    margin-left: 5rpx;
+    font-size: 24rpx;
+    background: linear-gradient(-45deg,rgba(189,146,92,1) 1.6357421875%, rgba(210,166,115,1) 18.0908203125%, rgba(240,220,175,1) 43.5546875%, rgba(246,204,168,1) 67.4072265625%, rgba(210,166,115,1) 97.5341796875%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buyer-buy-count {
+    margin-left: 20rpx;
+    font-size: 24rpx;
+    color: #a3a3a3;
+}
+
+.buyer-phone {
+    float: right;
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 20rpx;
+    margin-right: 30rpx;
+}
+
+/* 商品部分 */
+.evaluate-goods {
+    margin-top: 20rpx;
+}
+
+.goods-image {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 16rpx;
+}
+
+.goods-info {
+    position: relative;
+    height: 160rpx;
+    padding: 20rpx 30rpx 20rpx 20rpx;
+    overflow: hidden;
+}
+
+.goods-title {
+    font-size: 28rpx;
+    color: #1a1a1a;
+}
+
+.goods-price {
+    position: absolute;
+    right: 30rpx;
+    bottom: 30rpx;
+    color:#dc3538;
+    font-size: 30rpx;
+}
+
+/* 评论部分 */
+.evaluate-content {
+    padding-top: 10rpx;
+}
+
+.evaluate-title {
+    color: #222;
+    font-size: 28rpx;
+}
+
+.evaluate-star {
+    width: 38rpx;
+    height: 38rpx;
+    margin-left: 16rpx;
+}
+
+.evaluate-text {
+    float: left;
+    padding-left: 10rpx;
+    margin-top: 10rpx;
+    font-size: 28rpx;
+    color: #4c4c4c
+}
+
+/* 查看评价隐藏部分 */
+.evaluate-help {
+    float: right;
+    padding: 30rpx;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.help-icon {
+    width: 22rpx;
+    height: 22rpx;
+    margin-top: 4rpx;
+}
+
+.help-text {
+    margin-left: 10rpx;
+    margin-right: 30rpx;
+    line-height: 1;
+    font-size: 28rpx;
+    color: #a3a3a3;
+}
+
+.evaluate-submit {
+    position: fixed;
+    width: 100%;
+    left: 0rpx;
+    bottom: 0rpx;
+    background: #fff;
+}
+
+.ipx .evaluate-submit {
+    height: 166rpx;
+}
+
+.submit-button {
+    float: right;
+    width: 200rpx;
+    height: 98rpx;
+    border-radius: 0rpx;
+    font-size: 30rpx;
+    color: #fefefe;
+    background: #dc3538;
+    text-align: center;
+    line-height: 100rpx;
+}
+
+.ipx .submit-button {
+    margin: 10rpx;
+    height: 88rpx;
+    box-sizing: border-box;
+}

@@ -1,0 +1,217 @@
+.container{
+    background-color: #F5F5F5;
+}
+.container-m{
+    background-color: #FFF0D9;
+}
+.top-tip{
+    height:30rpx;
+    font-size:22rpx;
+    font-weight:500;
+    color:#808080;
+    text-align: center;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+.container-cal-normal{
+    box-sizing: border-box;
+    width: 90%;
+    background-color: white;
+    border:2rpx solid #EEEEEE;
+    box-shadow: 0 -3rpx 14rpx 0 rgba(194,193,189,0.3);
+    position: relative;
+    left: 5%;
+    right: 5%;
+    z-index: 2;
+    margin-bottom: -40rpx;
+}
+.container-cal-unnormal{
+    width: 100%;
+}
+.user-container{
+    width: 100%;
+    height: 180rpx;
+    margin-bottom: -20rpx;
+}
+.icon-user{
+    width:90rpx;
+    height:90rpx;
+    border-radius: 50%;
+    float: left;
+    margin-left:70rpx;
+    margin-top: 60rpx;
+    margin-right: 10rpx;
+}
+.title-ueser{
+    font-size:24rpx;
+    line-height:24rpx;
+    font-family:PingFang-SC-Medium;
+    font-size: 28rpx;
+    float: left;
+    padding-top: 70rpx;
+}
+.user-name {
+    font-size:24rpx;
+    line-height:24rpx;
+    margin-top: 100rpx;
+    position: absolute;
+    top: 10rpx;
+    left: 170rpx;
+    color: #222222;
+    font-size: 20rpx;
+    font-family:PingFang-SC-Regular;
+}
+.member-container{
+    width: 100%;
+    height: 850rpx;
+}
+.member-price{
+    font-size: 40rpx;
+    color: #DCB072;
+    font-family: PingFang-SC-Medium;
+    position: absolute;
+    top: 310rpx;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.member-img{
+    width: 360rpx;
+    height: 280rpx;
+    position: absolute;
+    top: 460rpx;
+    width: 100%;
+    text-align: center;
+}
+.member-list{
+    margin-top: -40rpx;
+    margin-bottom: -10rpx;
+}
+.member-header{
+    width: 100%;
+    height: 180rpx;
+    text-align: center;
+    margin-left: -2rpx;
+}
+.top-tip-cal{
+    text-align: center;
+    color: #1C1C1C;
+    font-size: 32rpx;
+    margin-top: 60rpx;
+    font-weight: bold;
+}
+.price-display{
+    display: flex;
+    width: 100%;
+    height: 250rpx;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.child-one{
+    flex: 3;
+}
+.child-two{
+    flex: 1;
+}
+.child-three{
+    flex: 3;
+}
+.container-share{
+    width: 100%;
+    text-align: center;
+    height: 100rpx;
+}
+.share-img-m{
+    background: url("https://img-ali.xiaohongchun.com.cn/admin/1548327304840829b884.png") no-repeat;
+    background-size: 280rpx 74rpx;
+}
+.share-img{
+    background: url("https://img-ali.xiaohongchun.com.cn/admin/154832725903625fc174b.png") no-repeat;
+    background-size: 280rpx 74rpx;
+}
+.price-money{
+    text-align: right;
+    color: #DCB072;
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-right: 20rpx;
+}
+.price-equal{
+    text-align: center;
+    color: #222;
+    font-size: 26rpx;
+}
+.price-img{
+    width: 250rpx;
+    height: 200rpx;
+    text-align: left;
+}
+
+.calculator-list-m{
+    box-sizing: border-box;
+    width: 91%;
+    margin: 0 auto 118rpx auto;
+	background: #fff;
+    padding: 20rpx 40rpx 0 40rpx;
+}
+.calculator-list{
+    box-sizing: border-box;
+    width: 100%;
+	background: #fff;
+    padding: 60rpx 51rpx 0 51rpx;
+}
+.member-special{
+    position: relative;
+    background-color: #222;
+	padding-bottom: 30rpx; 
+	margin-bottom: 30rpx;
+	border: 1rpx solid #D4B77E;
+}
+
+.calculator-item{
+    position: relative;
+	padding-bottom: 30rpx; 
+	padding-top: 30rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.list-title{
+    line-height: 1;
+	margin-bottom: 20rpx;
+	font-size: 28rpx;
+	color: #222;
+}
+.list-intro{
+    line-height: 1;
+	font-size: 20rpx;
+	color: #808080;
+}
+.list-price{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30rpx;
+    color: #DCB072;
+    line-height: 1;
+	font-size: 28rpx;
+}
+
+
+
+.bottom-square{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 118rpx;
+    display: flex;
+    background:rgba(248,234,203,1);
+    opacity:0.9;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.margin-bottomd{
+    height: 50rpx;
+    background-color: white;
+}

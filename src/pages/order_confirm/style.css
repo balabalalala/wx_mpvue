@@ -1,0 +1,46 @@
+.marginTop {
+    margin-top: 20rpx;
+}
+
+.dialog-fee-title {
+    margin-bottom: 38rpx;
+    font-size: 30rpx;
+    color: #222;
+}
+
+.dialog-fee-text {
+    margin-top: 20rpx;
+    text-align: left;
+    font-size: 26rpx;
+    color: #4C4C4C;
+}
+
+.customer-service-container {
+    position: fixed;
+    bottom: 140rpx;
+    right: 50rpx;
+    background-color: #e93d3b;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 20;
+    transition: transform 0.5s;
+    background: url(https://img-ali.xiaohongchun.com.cn/admin/15711308298521e0f8a20.png) 0 0 no-repeat;
+    background-size: contain;
+    font-size: 0;
+}
+
+.confirm-container {
+    background-color: rgba(249, 249, 249, 1);
+    padding-bottom: 99rpx;
+}
+
+.ipx .confirm-container {
+    padding-bottom: 159rpx;
+}
+
+.ipx .customer-service-container {
+    bottom: 200rpx;
+}

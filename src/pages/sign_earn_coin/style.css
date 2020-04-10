@@ -1,0 +1,82 @@
+.sign-in-activity {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(https://img-ali.xiaohongchun.com.cn/admin/15668968156912ef32dc9.jpg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.activity-guide {
+    position: absolute;
+    width: 100%;
+    height: 270rpx;
+    left: 0;
+    bottom: 0;
+}
+
+.activity-intro {
+    position: absolute;
+    left: 9%;
+    bottom: 54rpx;
+    width: 335rpx;
+    height: 130rpx;
+}
+
+.activity-intro p {
+    font-size: 28rpx;
+    font-weight: 400;
+    color: rgba(123, 39, 40, 1);
+    line-height: 37rpx;
+    text-align: left;
+    text-shadow: 0px 2px 9px rgba(223, 88, 78, 0.21);
+}
+
+.activity-intro strong {
+    display: inline;
+    font-size: 34rpx;
+    font-weight: 600;
+}
+
+.activity-share-btns {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* position:absolute; */
+    width: 349rpx;
+    height: 169rpx;
+    /* right:26%; */
+    /* left: 50%; */
+    /* transform-origin: center;
+    transform: translate(-50%, -30%); */
+    bottom: 50rpx;
+}
+
+.same-share-btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 50rpx;
+    width: 312rpx;
+    height: 92rpx;
+    background: rgba(118, 61, 21, 1);
+    font-size: 36rpx;
+    text-align: center;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 92rpx;
+    border-radius: 0;
+}
+
+.activity-share-btns .call-friends {
+    top: 95rpx;
+    background: linear-gradient(0deg, rgba(191, 68, 71, 0.92), rgba(242, 149, 134, 0.92));
+    box-shadow: 0px 6px 10px 0px rgba(178, 79, 72, 0.48);
+}

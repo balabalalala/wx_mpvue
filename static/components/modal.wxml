@@ -1,0 +1,15 @@
+<view class="mask" bindtap="maskClick">
+    <view catchtap="onclick" class="container" style="width: {{width}}">
+        <view wx:if="{{ title }}" class="header">
+            {{ title }}
+        </view>
+        <view class="body" style="text-align: {{align}}; white-space: {{ pre ? 'pre-wrap' : 'normal' }};">
+            <slot name="body"></slot>
+        </view>
+        <footer wx:if="{{showCancel || showConfirm}}" class="footer">
+            <button wx:if="{{showCancel}}" bindtap="cancel" class="cancel">{{ cancelText }}</button>
+            <button wx:if="{{showConfirm}}" class="confirm" bindtap="confirm">{{ confirmText }}</button>
+            <slot name="footer"></slot>
+        </footer>
+    </view>
+</view>

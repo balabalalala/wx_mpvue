@@ -1,0 +1,115 @@
+.container{
+    position: relative;
+    z-index: 2;
+}
+.top-banner{
+    position: relative;
+}
+.first-main{
+    width: 100%;
+    height: 540rpx;
+}
+.second-main{
+    width: 100%;
+    height: 787rpx;
+}
+.main-banner{
+    width: 100%;
+    height: 290rpx;
+    margin-top:-14rpx;
+}
+.second-main-price1{
+    width: 120rpx;
+    height: 79rpx;
+    position: absolute;
+    top:290rpx;
+    left:302rpx;
+}
+.second-main-price2{
+    width: 110rpx;
+    height: 94rpx;
+    position: absolute;
+    top:360rpx;
+    left:178rpx;
+}
+.second-main-price3{
+    width: 110rpx;
+    height: 84rpx;
+    position: absolute;
+    top:688rpx;
+    left:368rpx;
+}
+.second-main-cloud{
+    width: 100%;
+    height: 440rpx;
+    position: absolute;
+    left: 0;
+    animation:cloudmove 4s infinite linear;
+    z-index: 2;
+}
+@keyframes cloudmove
+{
+    0% {top:226rpx;}
+    50% {top:326rpx;}
+    100% {top:226rpx;}
+}
+.venue-list{
+    padding: 0 20rpx;
+    background-color: #f7b3b4;
+}
+.tab-content{
+    display:flex;
+}
+.tab-content-node{
+    position: relative;
+    flex: 1;
+    height:56rpx;
+    text-align: center;
+    padding: 18rpx 0 16rpx;
+    background: #fff;
+    color:#000000;
+}
+.tab-content-date{
+    font-size:28rpx;
+    line-height: 100%;
+    font-weight:bold;
+}
+.tab-content-title{
+    font-size:24rpx;
+}
+.sellings-list{
+    /*margin-top: -9rpx;*/
+}
+.venue-margin{
+    margin-bottom: 20rpx;
+}
+.venue-margin:last-child{
+    margin-bottom: 0;
+}
+.goods-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.goods{
+    width: 50%;
+    background: #fff;
+}
+.sign-img{
+    width: 100%;
+    height: 286rpx;
+}
+.selling{
+    height:256rpx;
+    border-bottom:1px solid #f2f2f2;
+    background: #fff;
+}
+.selling:last-child{
+    border-bottom:none;
+}
+.no-data{
+    width: 100%;
+    height: 140rpx;
+}
+image {
+    vertical-align: bottom;
+}

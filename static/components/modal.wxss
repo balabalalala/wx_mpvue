@@ -1,0 +1,63 @@
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
+
+.container {
+    position: absolute;
+    width: 90%;
+    border-radius: 10rpx;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 1em;
+    font-size: 36rpx;
+}
+
+.body {
+    padding: 1em;
+    white-space: pre-wrap;
+    font-size: 30rpx;
+    color: #4C4C4C;
+}
+
+.footer {
+    border-top: 1rpx solid #eee;
+    display: flex;
+    padding: 15rpx;
+}
+
+.confirm, .cancel {
+    width: 50%;
+    padding: 0;
+    border-radius: 0;
+    background: #fff;
+    font-size: 32rpx;
+}
+
+.cancel {
+    color: #808080;
+    border-right: 1rpx solid #eee;
+}
+
+.confirm {
+    color: rgb(84,185,56);
+}
+
+.confirm::after, .cancel::after {
+    width: 0;
+    height: 0;
+    border: 0;
+    background: none;
+}

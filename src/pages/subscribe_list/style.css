@@ -1,0 +1,28 @@
+.container {
+    padding-bottom: 115rpx;
+    position: relative;
+    z-index: 2;
+}
+
+.list-content {
+    /* padding-top: 20rpx; */
+}
+
+.hot-tag-list {
+    padding: 0 10rpx;
+    height: 276rpx;
+    background: rgba(255, 255, 255, 1);
+    border-top: 20rpx solid #f5f5f5;
+}
+
+.no-subscribe {
+    margin-left: 148rpx;
+    margin-top: 175rpx;
+    width: 460rpx;
+    height: 460rpx;
+}
+
+img {
+    width: 460rpx;
+    height: 460rpx;
+}
