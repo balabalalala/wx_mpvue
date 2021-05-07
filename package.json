@@ -24,7 +24,7 @@
 		"promise": "^8.0.3",
 		"qs": "^6.5.2",
 		"save": "^2.3.2",
-		"underscore": "^1.9.1",
+		"underscore": "^1.12.1",
 		"url": "^0.11.0",
 		"vue-template-compiler": "^2.6.10",
 		"vuex": "^3.0.1"
