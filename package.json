@@ -17,7 +17,7 @@
 	"dependencies": {
 		"flyio": "^0.5.9",
 		"md5": "^2.2.1",
-		"moment": "^2.22.2",
+		"moment": "^2.29.2",
 		"mpvue": "^1.0.18",
 		"mpvue-wxparse": "^0.6.5",
 		"ncp": "^2.0.0",
